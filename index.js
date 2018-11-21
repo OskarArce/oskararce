@@ -21,7 +21,7 @@ const actions = {
     console.log(JSON.stringify(require('./me.json'), null, 3));
   },
   Quit() {
-    process.exit(1);
+    process.exit(0);
   }
 };
 
@@ -54,5 +54,5 @@ inquirer
   ])
   .then(answers => {
     actions[answers.choice]();
-    process.exit(1);
+    process.exit(0);
   });
