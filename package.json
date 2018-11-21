@@ -1,6 +1,6 @@
 {
-  "name": "@oskararce/oskararce",
-  "version": "1.0.0",
+  "name": "oskararce",
+  "version": "1.1.0",
   "description": "Contact Information about Oskar Arce",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -12,18 +12,19 @@
   "scripts": {
     "postinstall": "node ./index.js"
   },
+  "dependencies": {
+    "opn": "^5.4.0",
+    "inquirer": "^6.2.0",
+    "cfonts": "2.3.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/oskar.arce/oskararce.git"
+    "url": "https://gitlab.com/oskar.arce/oskararce"
   },
   "keywords": [
     "person",
     "contact"
   ],
   "author": "Oskar Arce",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/oskar.arce/oskararce/issues"
-  },
-  "homepage": "https://gitlab.com/oskar.arce/oskararce#readme"
+  "license": "MIT"
 }
