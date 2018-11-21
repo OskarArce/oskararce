@@ -1,0 +1,25 @@
+{
+  "name": "oskararce",
+  "version": "1.0.0",
+  "description": "Contact Information about Oskar Arce",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "bin": {
+    "oskararce": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/oskar.arce/oskararce"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Oskar Arce",
+  "license": "MIT"
+}

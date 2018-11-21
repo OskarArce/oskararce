@@ -1,0 +1,16 @@
+{
+  "name": "Oskar Arce",
+  "priorities" : [
+    "Family", "Work", "Chess"
+  ],
+  "work" : [
+    "@Intelygenz"
+  ],
+  "twitter": "@Oscaruko",
+  "tech" : [
+    "JavaScript", "React", "Vue", "Express", "Restify"
+  ],
+  "titles" : [
+    "Software Engineer"
+  ]
+}
