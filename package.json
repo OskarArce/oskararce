@@ -6,9 +6,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "main": "index.js",
+  "bin": {
+    "oskararce": "./index.js"
+  },
   "scripts": {
-    "start": "node ./index.js",
-    "postinstall": "node ./index.js"
+    "start": "node ./index.js"
   },
   "dependencies": {
     "opn": "^5.4.0",
